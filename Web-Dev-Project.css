@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+    display: flex;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    color: #393739;
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("C:/Users/gabri/OneDrive/Documents/Cyber Security/Year 1/Semester 2/Web development/Web-Dev-Project/Web-Dev-Project/Background-image.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: #e8e8ef;
+    text-align: left;
+    color: #393739;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+
+#navigation-menu ul {
+    list-style-type: none;
+    text-align: right;
+    color: #393739;
+    font-size: 18px;
+    position: relative;
+    bottom: 100px;
+}
+
+#navigation-menu li {
+    display: inline-block;
+    position: relative;
+    padding: 0px 5px;
+}
+
+#navigation-menu li a {
+    text-decoration:none;
+    display: block;
+    padding: 5px 20px;
+    background: #393739;
+    color: white;
+    border-top:2px solid #676467;
+    border-right:2px solid #121112;
+    border-bottom:2px solid #121112;
+    border-left:2px solid #676467;
+}
+
+#navigation-menu li a:hover {
+    background: #8a878a;
+    color: black;
+    border-top:2px solid #121112;
+    border-right:2px solid #676467;
+    border-bottom:2px solid #676467;
+    border-left:2px solid #121112;
+}
+
+#image {
+    border: 2px solid #e8e8ef;
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+}
+
+#welcome {
+    position: relative;
+    left: 750px;
+    bottom: 250px;
+}
+
+footer {
+    background-color: #e8e8ef;
+    font-size: 15px;
+    color: #393739;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
