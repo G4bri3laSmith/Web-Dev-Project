@@ -113,6 +113,10 @@ header h1 {
     flex-direction: row;
 }
 
+#div-education ul li {
+    padding: 7px 0px;
+}
+
 #hobbies {
     position: relative;
     bottom: 6px;
@@ -123,6 +127,10 @@ header h1 {
     flex-direction: row;
 }
 
+#div-hobbies ul li {
+    padding: 7px 0px;
+}
+
 #interests {
     position: relative;
     bottom: 6px;
@@ -131,6 +139,48 @@ header h1 {
 #div-interests {
     display: flex;
     flex-direction: row;
+}
+
+#div-interests ul li {
+    padding: 7px 0px;
+}
+
+#experience-h1 {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+#experience-article {
+    background-color: #e8e8ef;
+    color: #393739;
+    height: 380px;
+    width: 49%;
+    float: left;
+    position: relative;
+    bottom: 0px;
+    left: 0px; 
+}
+
+#OU {
+    padding: 15px;
+}
+
+#experience-aside {
+    background-color: #e8e8ef;
+    color: #393739;
+    padding: 15px;
+    float: right;
+    height: 350px;
+    width: 47%;
+    position: relative;
+    bottom: 0px;
+}
+
+#work-h1 {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
 }
 
 #contact {
