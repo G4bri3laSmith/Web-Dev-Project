@@ -77,11 +77,12 @@ header h1 {
     left: 750px;
     bottom: 260px;
     font-size: 25px;
+    width: 400px;
 }
 
 #article {
     position: relative;
-    left: 835px;
+    margin-left: 835px;
     bottom: 250px;
     font-size: 18px;
 }
@@ -131,6 +132,10 @@ header h1 {
     padding: 7px 0px;
 }
 
+#interests-article {
+    padding-bottom: 100px;
+}
+
 #interests {
     position: relative;
     bottom: 6px;
@@ -145,6 +150,12 @@ header h1 {
     padding: 7px 0px;
 }
 
+#totop {
+    position: relative;
+    top: 30px;
+    left: 600px;
+}
+
 #experience-h1 {
     text-align: center;
     position: relative;
@@ -154,16 +165,32 @@ header h1 {
 #experience-article {
     background-color: #e8e8ef;
     color: #393739;
-    height: 380px;
+    height: 250px;
     width: 49%;
     float: left;
     position: relative;
     bottom: 0px;
-    left: 0px; 
+    padding-bottom: 600px;
+}
+
+#experience-article ul li {
+    padding: 15px 0px;
+}
+
+#blankspace-1 {
+    padding-bottom: 340px;
 }
 
 #OU {
+    text-align: center;
     padding: 15px;
+}
+
+#Open-University {
+    position: relative;
+    left: 160px;
+    bottom: 14px;
+    padding-bottom: 10px;
 }
 
 #experience-aside {
@@ -171,10 +198,25 @@ header h1 {
     color: #393739;
     padding: 15px;
     float: right;
-    height: 350px;
+    height: 235px;
     width: 47%;
     position: relative;
     bottom: 0px;
+    padding-bottom: 600px;
+}
+
+#experience-aside ul li {
+    padding: 15px 0px;
+}
+
+#CC {
+    text-align: center;
+}
+
+#codecademy {
+    position: relative;
+    left: 160px;
+    padding-bottom: 27px;
 }
 
 #work-h1 {
