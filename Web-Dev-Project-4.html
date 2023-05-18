@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Personal portfolio website that showcases my work, experience and overall development">
         <link
         href="Web-Dev-Project.css"
         rel="Stylesheet">
@@ -26,12 +27,63 @@
             <section>
                 <h1 id="work-h1">My Work</h1>
                 <article>
-                    <p></p>
+                    <header id="work-header">
+                        <h2 id="work-vm">Codelab - Vending Machine</h2>
+                    </header>
+                    <div id="work-div1">
+                        <video id="work-video" title="Vending Machine" alt="Video walkthrough of Gabby's vending machine program" width="300" height="200" controls loop autoplay>
+                            <source src="C:\Users\gabri\OneDrive\Documents\Cyber Security\Year 1\Semester 2\Web development\Web-Dev-Project\Web-Dev-Project\Vending-Machine.mp4" type="video/mp4">
+                            <p>Sorry, your browser doesn't support embedded videos.</p>
+                        </video> 
+                        <ul>
+                            <li>Created a Vending Machine program using the C++ programming language.
+                                <ul>
+                                    <li>My first C++ project since I started learning the language.</li>
+                                </ul>
+                            </li>
+                            <li>Along with this, I created a development document for my Vending Machine program.</li>
+                            <li>I also made a walkthrough video for my Vending Machine program, which is included on the left.</li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <header id="work-header">
+                        <h2 id="work-df">Digital Forensics - Set Exercises</h2>
+                    </header>
+                    <div id="work-div2">
+                    <img src="Forensics.jpg" alt="Image of a pair of glasses with a desktop computer in the background" width="300" height="200" title="Desktop computer">
+                    <ul>
+                        <li>Questions related to a set of files given to me.</li>
+                        <li>Assignment was to examine the given files and complete the set of exercises.</li>
+                        <li>Exercises involved tasks such as:
+                            <ul>
+                                <li>Examining image offsets.</li>
+                                <li>Retrieving file hashes.</li>
+                                <li>Password cracking.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </article>
+                <article id="work-article">
+                    <header id="work-header">
+                        <h2 id="work-cr">Course Rep - 22/23</h2>
+                    </header>
+                    <div id="work-div3">
+                    <img src="Rep.jpg" alt="Image of a group of people making notes" width="300" height="200" title="Meeting">
+                    <ul>
+                        <li>Cyber Security course rep for the year 22/23.</li>
+                        <li>Attended SSLCs with academic staff to shape changes in the Cyber Security course.</li>
+                        <li>Attended course rep round table meetings with senior academic reps to discuss course feedback.</li>
+                    </ul>
+                    </div> 
+                    <button id="totop" type="button" onclick="toTop()">Back to top</button>
                 </article>
             </section>
         </main>
         <footer>
             <p>&copy; Gabby's Portfolio 2023</p>
         </footer>
+        <script src="Web-Dev-Project.js"></script>
     </body>
 </html>
