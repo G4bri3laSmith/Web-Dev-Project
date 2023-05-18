@@ -1,3 +1,5 @@
+/* CSS filters to change the appearance of page and layout */
+
 html {
     height: 100%;
     display: flex;
@@ -12,6 +14,8 @@ body {
     background-image: url("C:/Users/gabri/OneDrive/Documents/Cyber Security/Year 1/Semester 2/Web development/Web-Dev-Project/Web-Dev-Project/Background-image.jpg");
     background-size: cover;
 }
+
+/*Header for all pages*/
 
 header {
     background-color: #e8e8ef;
@@ -65,6 +69,8 @@ header h1 {
     border-left:2px solid #121112;
 }
 
+/*Home page*/
+
 #image {
     border: 2px solid #e8e8ef;
     position: relative;
@@ -86,6 +92,8 @@ header h1 {
     bottom: 250px;
     font-size: 18px;
 }
+
+/*About page*/
 
 #about-h1 {
     text-align: center;
@@ -161,6 +169,8 @@ header h1 {
     left: 600px;
 }
 
+/*Experience page*/
+
 #experience-h1 {
     text-align: center;
     position: relative;
@@ -223,6 +233,8 @@ header h1 {
     left: 160px;
     padding-bottom: 27px;
 }
+
+/*Work page*/
 
 #work-h1 {
     text-align: center;
@@ -292,6 +304,8 @@ header h1 {
     padding: 5px 0px;
 }
 
+/*Contact page*/
+
 #contact {
     display: inline-block;
     position: relative;
@@ -310,6 +324,8 @@ header h1 {
 #github {
     border-radius: 20%;
 }
+
+/*Footer for all pages*/
 
 footer {
     background-color: #e8e8ef;
