@@ -317,12 +317,46 @@ header h1 {
     padding: 0px 20px;
 }
 
+#gmail {
+    animation: myAnim 3s ease 3s 1 normal forwards;
+}
+
 #linkedin {
     border-radius: 20%;
+    animation: myAnim 3s ease 6s 1 normal forwards;
 }
 
 #github {
     border-radius: 20%;
+    animation: myAnim 3s ease 9s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-8px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(8px);
+	}
+
+	80% {
+		transform: translateY(6.4px);
+	}
+
+	90% {
+		transform: translateY(-6.4px);
+	}
 }
 
 /*Footer for all pages*/
